@@ -1,0 +1,76 @@
+body{
+    background-color: #EEF9BF
+}
+header{
+    color:#75B79E;
+    font-size: 56px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 47px;
+    flex-wrap: wrap;
+}
+div:active{
+    transition: all 1s linear;
+    transform: rotateY(180deg);
+}
+.card{
+    background: #A7E9AF;
+    border: 1px solid #99CEA8;
+    border-radius: 5px;
+    width: 117px;
+    height: 146px;
+   
+  
+}
+
+.card img{
+    background: #A7E9AF;
+    padding-top: 24px;
+    padding-left: 10px;
+    width: 100px;
+    height: 100px;
+    transition: all 1s linear;
+    transform: rotateY(180deg);
+   
+}
+.card img:active{
+    transition: all 1s linear;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    background-color: #FFFFFF;
+
+}
+
+
+.escondido{
+    display: none;
+   
+}
+.escondido:active{
+    transition: all 1s linear;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    background-color: #FFFFFF;
+
+
+}
+.cronometro{
+    position: fixed;
+    top:0;
+    right: 0;
+    margin-right: 10px;
+    margin-top:10px;
+    font-size: 20px;
+}
+/* .virarcarta{
+    transform: rotateX(180deg);
+    transition: all 1s linear;
+} */
